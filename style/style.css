@@ -1,11 +1,12 @@
-:root{
+:root {
     --fonte-principal: 'Poppins';
 }
 
-body{
+body {
     background-color: #CCD5AE;
 }
-.exercicios{
+
+.exercicios {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,47 +16,59 @@ body{
 
 }
 
-.titulo-principal{
+.titulo-principal {
     font-size: 1.5rem;
     color: #ffffff;
     cursor: pointer;
     transition: 1s;
     font-weight: 600;
-    box-shadow:10px 5px 5px black;
+    box-shadow: 10px 5px 5px black;
     background-color: rgb(41, 49, 117);
 }
 
-.titulo-principal:hover{
+.titulo-principal:hover {
     transform: scale(1.5);
 }
 
-.exercicio{
-   width: 100%;
-   text-align: center;
-   padding: 1EM;
+.exercicio {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
 }
 
-h3{
+h3 {
     font-family: var(--fonte-principal);
-    font-weight: 400 ;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 
-.input-valores{
+.input-valores
+{
     width: 150px;
     height: 30px;
     border-radius: 15px;
     padding-left: 1em;
 }
 
-p{
+.botao {
+    background: black;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    padding-left: 1em;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+p {
     font-size: 1.2rem;
 }
 
-.rodape{
+.rodape {
     padding: 2em;
     display: flex;
     justify-content: center;
     background-color: #FEFAE0;
 }
-
